@@ -20,4 +20,5 @@ for ax, k in zip(axes[1:], ks):
     ax.axis('off')
 
 plt.tight_layout()
-plt.show()
+plt.savefig('rank_comparison.png', dpi=150)
+plt.close(fig)
